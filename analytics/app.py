@@ -50,7 +50,8 @@ def get_daily_visits():
 
 @app.route("/api/reports/daily_usage", methods=["GET"])
 def daily_visits():
-    return jsonify(get_daily_visits)
+    print("hello world")
+    return jsonify(get_daily_visits())
 
 
 @app.route("/api/reports/user_visits", methods=["GET"])
