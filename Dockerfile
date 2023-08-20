@@ -9,7 +9,7 @@ RUN pip install -r requirements.txt
 COPY ./analytics .
 
 ENV DB_USERNAME=postgres \
-    DB_PASSWORD=8XOEENfMxl \
+    DB_PASSWORD=8J43myXDHG \
     DB_HOST=db-postgresql.default.svc.cluster.local \
     DB_PORT=5432 \
     DB_NAME=postgres

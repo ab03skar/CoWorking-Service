@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: user-api
-        image: 229159696739.dkr.ecr.us-east-1.amazonaws.com/coworking-service:5
+        image: 229159696739.dkr.ecr.us-east-1.amazonaws.com/coworking-service:7
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
